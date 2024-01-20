@@ -1,0 +1,184 @@
+{
+    "authors": [
+        "FRANCHINA Lucas, RUAN Henry"
+    ],
+    "category": "Cloud Security Threat",
+    "description": "Detailed description of a specific cloud security threat, such as a common vulnerability in cloud services or an emerging threat pattern observed in cloud infrastructures.",
+    "name": "Specific Cloud Security Threat Name",
+    "source": "Nist",
+    "type": "cloud-security-threat",
+    "uuid": "50f6835d-0be5-45d1-9264-d40047e4c8dd",
+    "values": [
+        {
+            "description": "In-depth information about the specific threat or vulnerability, including potential impact and known instances.",
+            "meta": {
+                "severity": "High/Medium/Low",
+                "affected-platforms": [
+                    "AWS",
+                    "Azure",
+                    "GCP"
+                ],
+                "references": [
+                    "URL or reference document"
+                ]
+            },
+            "uuid": "50f6835d-0be5-45d1-9264-d40047e4c8dd",
+            "value": "Name of the Threat or Vulnerability"
+        },
+        {
+            "description": "Microsoft Windows Azure Software Development Kit (SDK) 1.3.x before 1.3.20121.1237, when Full IIS and a Web Role are used with an ASP.NET application, does not properly support the use of cookies for maintaining state, which allows remote attackers to obtain potentially sensitive information by reading an encrypted cookie and performing unspecified other steps.",
+            "meta": {
+                "cve-id": "CVE-2011-1068",
+                "published": "2011-02-23T19:00:02.860",
+                "lastModified": "2011-04-21T04:00:00.000",
+                "source": "cve@mitre.org",
+                "vulnStatus": "Analyzed",
+                "severity_v2": "LOW",
+                "score_cvss_v2": 2.6,
+                "vector_v2": "AV:N/AC:H/Au:N/C:P/I:N/A:N",
+                "severity_v3": "Unknown",
+                "score_cvss_v3": "Unknown",
+                "vector_v3": "Unknown",
+                "cwe": "CWE-20",
+                "affected_configurations": [
+                    "cpe:2.3:a:microsoft:windows_azure_sdk:1.3:*:*:*:*:*:*:*"
+                ],
+                "references": [
+                    "http://blogs.msdn.com/b/windowsazure/archive/2011/02/03/windows-azure-software-development-kit-sdk-refresh-released.aspx",
+                    "http://secunia.com/advisories/43237"
+                ]
+            },
+            "uuid": "36efa2ce-5a99-4497-bbc0-37251f8d06e3",
+            "value": "CVE-2011-1068"
+        },
+        {
+            "description": "The Microsoft Azure Active Directory Passport (aka Passport-Azure-AD) library 1.x before 1.4.6 and 2.x before 2.0.1 for Node.js does not recognize the validateIssuer setting, which allows remote attackers to bypass authentication via a crafted token.",
+            "meta": {
+                "cve-id": "CVE-2016-7191",
+                "published": "2016-09-28T20:59:00.240",
+                "lastModified": "2017-07-30T01:29:18.897",
+                "source": "secure@microsoft.com",
+                "vulnStatus": "Modified",
+                "severity_v2": "MEDIUM",
+                "score_cvss_v2": 4.3,
+                "vector_v2": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+                "severity_v3": "Unknown",
+                "score_cvss_v3": "Unknown",
+                "vector_v3": "Unknown",
+                "cwe": "CWE-287",
+                "affected_configurations": [
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.0.0:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.1.0:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.1.1:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.2.0:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.0:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.1:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.2:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.3:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.4:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.5:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.6:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.0:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.1:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.2:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.3:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.4:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.5:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:microsoft:azure_active_directory_passport:2.0.0:*:*:*:*:*:*:*"
+                ],
+                "references": [
+                    "http://www.securityfocus.com/bid/93213",
+                    "http://www.securitytracker.com/id/1036996",
+                    "https://github.com/AzureAD/passport-azure-ad/blob/master/SECURITY-NOTICE.MD",
+                    "https://support.microsoft.com/kb/3187742"
+                ]
+            },
+            "uuid": "55959902-9542-4dda-abe9-1e9ed4bb333a",
+            "value": "CVE-2016-7191"
+        },
+        {
+            "description": "An Improper Authorization issue was discovered in OSIsoft PI Integrator for Business Analytics before 2016 R2, PI Integrator for Microsoft Azure before 2016 R2 SP1, and PI Integrator for SAP HANA before 2017. An attacker is able to gain privileged access to the system while unauthorized.",
+            "meta": {
+                "cve-id": "CVE-2017-9653",
+                "published": "2017-08-14T16:29:00.257",
+                "lastModified": "2019-10-03T00:03:26.223",
+                "source": "ics-cert@hq.dhs.gov",
+                "vulnStatus": "Analyzed",
+                "severity_v2": "HIGH",
+                "score_cvss_v2": 7.5,
+                "vector_v2": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+                "severity_v3": "Unknown",
+                "score_cvss_v3": "Unknown",
+                "vector_v3": "Unknown",
+                "cwe": "CWE-863",
+                "affected_configurations": [
+                    "cpe:2.3:a:osisoft:pi_integrator_for_business_analystics:2016:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:osisoft:pi_integrator_for_microsoft_azure:2016:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:osisoft:pi_integrator_for_sap_hana:2016:*:*:*:*:*:*:*"
+                ],
+                "references": [
+                    "http://www.securityfocus.com/bid/100212",
+                    "https://ics-cert.us-cert.gov/advisories/ICSA-17-220-01",
+                    "https://techsupport.osisoft.com/Troubleshooting/Alerts/AL00324"
+                ]
+            },
+            "uuid": "968bec7a-bace-4361-a9b1-2e4597f79e7b",
+            "value": "CVE-2017-9653"
+        },
+        {
+            "description": "A Cross-Site Scripting issue was discovered in OSIsoft PI Integrator for Business Analytics before 2016 R2, PI Integrator for Microsoft Azure before 2016 R2 SP1, and PI Integrator for SAP HANA before 2017. An attacker may be able to upload a malicious script that attempts to redirect users to a malicious web site.",
+            "meta": {
+                "cve-id": "CVE-2017-9655",
+                "published": "2017-08-14T16:29:00.287",
+                "lastModified": "2017-08-23T19:23:02.230",
+                "source": "ics-cert@hq.dhs.gov",
+                "vulnStatus": "Analyzed",
+                "severity_v2": "LOW",
+                "score_cvss_v2": 3.5,
+                "vector_v2": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+                "severity_v3": "Unknown",
+                "score_cvss_v3": "Unknown",
+                "vector_v3": "Unknown",
+                "cwe": "CWE-79",
+                "affected_configurations": [
+                    "cpe:2.3:a:osisoft:pi_integrator_for_business_analystics:*:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:osisoft:pi_integrator_for_microsoft_azure:*:*:*:*:*:*:*:*",
+                    "cpe:2.3:a:osisoft:pi_integrator_for_sap_hana:*:*:*:*:*:*:*:*"
+                ],
+                "references": [
+                    "http://www.securityfocus.com/bid/100212",
+                    "https://ics-cert.us-cert.gov/advisories/ICSA-17-220-01",
+                    "https://techsupport.osisoft.com/Troubleshooting/Alerts/AL00324"
+                ]
+            },
+            "uuid": "5bdc3e1a-478f-4a25-b933-7bc2d661b1e1",
+            "value": "CVE-2017-9655"
+        },
+        {
+            "description": "A spoofing vulnerability exists in Microsoft Azure DevOps Server when it fails to properly handle web requests, aka 'Azure DevOps Server HTML Injection Vulnerability'.",
+            "meta": {
+                "cve-id": "CVE-2019-0869",
+                "published": "2019-04-09T21:29:02.863",
+                "lastModified": "2020-08-24T17:37:01.140",
+                "source": "secure@microsoft.com",
+                "vulnStatus": "Analyzed",
+                "severity_v2": "MEDIUM",
+                "score_cvss_v2": 4.3,
+                "vector_v2": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+                "severity_v3": "Unknown",
+                "score_cvss_v3": "Unknown",
+                "vector_v3": "Unknown",
+                "cwe": "CWE-79",
+                "affected_configurations": [
+                    "cpe:2.3:o:microsoft:azure_devops_server:2019:*:*:*:*:*:*:*"
+                ],
+                "references": [
+                    "http://www.securityfocus.com/bid/107768",
+                    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0869"
+                ]
+            },
+            "uuid": "12bf2b2f-2d1a-4450-aec9-cf11be6f57ee",
+            "value": "CVE-2019-0869"
+        }
+    ]
+}
