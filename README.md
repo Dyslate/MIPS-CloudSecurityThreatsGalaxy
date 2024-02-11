@@ -21,11 +21,15 @@ Ensure you have Python and pip installed on your system before running the comma
 The project is structured into three main stages, each corresponding to a script that needs to be executed sequentially to achieve the desired outcome.
 
 ### Step 1: Fetch JSON Data from MITRE
-The first step involves fetching relevant JSON data from MITRE's repositories. This is done using the `etape1_get_json_from_mitre.py` script.
+The first step involves fetching relevant JSON data from MITRE's repositories. This is achieved with the etape1_get_json_from_mitre.py script. The script supports a multithreading option to speed up the download process by fetching data in parallel.
+
+To specify the number of threads (for example, 20 threads), use the -t or --threads option:
+
 
 ```sh
-python etape1_get_json_from_mitre.py
+python etape1_get_json_from_mitre.py --threads 20
 ```
+By default, if no thread count is specified, the script will use 20 threads. Adjust the number of threads based on your system's capabilities and internet connection to optimize performance.
 
 This script downloads JSON files containing information about attack patterns from the MITRE ATT&CK, PRE-ATT&CK, and Mobile ATT&CK matrices.
 
