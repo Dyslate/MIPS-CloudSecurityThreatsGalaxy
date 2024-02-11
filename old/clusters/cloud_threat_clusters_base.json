@@ -1,0 +1,29 @@
+{
+    "authors": [
+        "FRANCHINA Lucas, RUAN Henry"
+    ],
+    "category": "Cloud Security Threat",
+    "description": "Detailed description of a specific cloud security threat, such as a common vulnerability in cloud services or an emerging threat pattern observed in cloud infrastructures.",
+    "name": "Specific Cloud Security Threat Name",
+    "source": "Nist",
+    "type": "cloud-security-threat",
+    "uuid": "50f6835d-0be5-45d1-9264-d40047e4c8dd",
+    "values": [
+        {
+            "description": "In-depth information about the specific threat or vulnerability, including potential impact and known instances.",
+            "meta": {
+                "severity": "High/Medium/Low",
+                "affected-platforms": [
+                    "AWS",
+                    "Azure",
+                    "GCP"
+                ],
+                "references": [
+                    "URL or reference document"
+                ]
+            },
+            "uuid": "50f6835d-0be5-45d1-9264-d40047e4c8dd",
+            "value": "Name of the Threat or Vulnerability"
+        }
+    ]
+}

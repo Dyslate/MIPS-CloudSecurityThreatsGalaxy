@@ -1,9 +1,0 @@
-{
-    "description": "A galaxy dedicated to identifying and categorizing security threats specific to cloud environments.",
-    "icon": "cloud",
-    "name": "Cloud Security Threats",
-    "namespace": "threat-actor",
-    "type": "cloud-security",
-    "uuid": "50f6835d-0be5-45d1-9264-d40047e4c8dd",
-    "version": 1
-}
