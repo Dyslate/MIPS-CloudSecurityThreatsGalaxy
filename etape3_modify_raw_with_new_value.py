@@ -20,8 +20,9 @@ def load_external_ids_details(file_path):
 
 def modify_entry_kill_chain(entry, external_ids):
     """
-    Modify the kill_chain values for entries that match the specified external IDs.
-    
+    Modify the kill_chain values for entries that match the specified external IDs. For each 'mitre-attack' pattern
+    found in the kill_chain, a corresponding 'mitre-cloud-attack' pattern is added, while keeping the original patterns.
+
     :param entry: A dictionary representing a single entry in the MITRE attack pattern dataset.
     :param external_ids: A set of external IDs to match against.
     :return: A tuple (bool, list) where bool indicates if modifications were made, and list is the original kill_chain if modified.
@@ -30,12 +31,24 @@ def modify_entry_kill_chain(entry, external_ids):
     if external_id in external_ids:
         # Make a copy of the original kill_chain before modification
         original_kill_chain = entry.get('meta', {}).get('kill_chain', []).copy()
-        entry['meta']['kill_chain'] = [
-            re.sub(r'mitre-(attack|pre-attack|mobile-attack)', r'mitre-cloud-attack', kc) 
-            for kc in entry.get('meta', {}).get('kill_chain', [])
-        ]
-        return True, original_kill_chain
+        modified_kill_chain = original_kill_chain.copy()  # Copy to modify
+        
+        # Loop through each pattern in the original kill_chain
+        for kc in original_kill_chain:
+            if 'mitre-attack' in kc:
+                # Create and add the modified version to the kill_chain
+                modified_version = kc.replace('mitre-attack', 'mitre-cloud-attack')
+                if modified_version not in modified_kill_chain:  # Check to avoid duplication
+                    modified_kill_chain.append(modified_version)
+
+        # Check if any modifications were made
+        if len(modified_kill_chain) > len(original_kill_chain):
+            entry['meta']['kill_chain'] = modified_kill_chain
+            return True, original_kill_chain
+
     return False, []
+
+
 
 # Load external IDs details
 external_ids_details = load_external_ids_details('external_ids_details.json')

@@ -1603,6 +1603,7 @@
             "meta": {
                 "external_id": "T1562.007",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -1632,6 +1633,7 @@
             "meta": {
                 "external_id": "T1562.008",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -2807,6 +2809,7 @@
             "meta": {
                 "external_id": "T1537",
                 "kill_chain": [
+                    "mitre-attack:exfiltration",
                     "mitre-cloud-attack:exfiltration"
                 ],
                 "mitre_data_sources": [
@@ -2993,6 +2996,7 @@
             "meta": {
                 "external_id": "T1649",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -3206,6 +3210,7 @@
             "meta": {
                 "external_id": "T1621",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -3367,6 +3372,7 @@
             "meta": {
                 "external_id": "T1021.008",
                 "kill_chain": [
+                    "mitre-attack:lateral-movement",
                     "mitre-cloud-attack:lateral-movement"
                 ],
                 "mitre_data_sources": [
@@ -3484,6 +3490,8 @@
             "meta": {
                 "external_id": "T1098.002",
                 "kill_chain": [
+                    "mitre-attack:persistence",
+                    "mitre-attack:privilege-escalation",
                     "mitre-cloud-attack:persistence",
                     "mitre-cloud-attack:privilege-escalation"
                 ],
@@ -3734,6 +3742,7 @@
             "meta": {
                 "external_id": "T1562.001",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -4275,6 +4284,7 @@
             "meta": {
                 "external_id": "T1552.005",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -4547,6 +4557,7 @@
             "meta": {
                 "external_id": "T1499.004",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -4584,6 +4595,8 @@
             "meta": {
                 "external_id": "T1548.005",
                 "kill_chain": [
+                    "mitre-attack:privilege-escalation",
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:privilege-escalation",
                     "mitre-cloud-attack:defense-evasion"
                 ],
@@ -4671,6 +4684,7 @@
             "meta": {
                 "external_id": "T1555.006",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -4702,6 +4716,7 @@
             "meta": {
                 "external_id": "T1578.005",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -5287,6 +5302,7 @@
             "meta": {
                 "external_id": "T1530",
                 "kill_chain": [
+                    "mitre-attack:collection",
                     "mitre-cloud-attack:collection"
                 ],
                 "mitre_data_sources": [
@@ -5516,6 +5532,7 @@
             "meta": {
                 "external_id": "T1048",
                 "kill_chain": [
+                    "mitre-attack:exfiltration",
                     "mitre-cloud-attack:exfiltration"
                 ],
                 "mitre_data_sources": [
@@ -5552,6 +5569,7 @@
             "meta": {
                 "external_id": "T1049",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -5582,6 +5600,8 @@
             "meta": {
                 "external_id": "T1550",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
+                    "mitre-attack:lateral-movement",
                     "mitre-cloud-attack:defense-evasion",
                     "mitre-cloud-attack:lateral-movement"
                 ],
@@ -5644,6 +5664,7 @@
             "meta": {
                 "external_id": "T1059",
                 "kill_chain": [
+                    "mitre-attack:execution",
                     "mitre-cloud-attack:execution"
                 ],
                 "mitre_data_sources": [
@@ -5784,6 +5805,7 @@
             "meta": {
                 "external_id": "T1211",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -5843,6 +5865,7 @@
             "meta": {
                 "external_id": "T1212",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -5901,6 +5924,7 @@
             "meta": {
                 "external_id": "T1213",
                 "kill_chain": [
+                    "mitre-attack:collection",
                     "mitre-cloud-attack:collection"
                 ],
                 "mitre_data_sources": [
@@ -6264,6 +6288,7 @@
             "meta": {
                 "external_id": "T1619",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -6307,6 +6332,7 @@
             "meta": {
                 "external_id": "T1522",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_platforms": [
@@ -6562,6 +6588,7 @@
             "meta": {
                 "external_id": "T1528",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -6800,6 +6827,7 @@
             "meta": {
                 "external_id": "T1539",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -7000,6 +7028,8 @@
             "meta": {
                 "external_id": "T1548",
                 "kill_chain": [
+                    "mitre-attack:privilege-escalation",
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:privilege-escalation",
                     "mitre-cloud-attack:defense-evasion"
                 ],
@@ -7113,6 +7143,7 @@
             "meta": {
                 "external_id": "T1486",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -7171,6 +7202,7 @@
             "meta": {
                 "external_id": "T1498",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -7204,6 +7236,7 @@
             "meta": {
                 "external_id": "T1499",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -7241,6 +7274,7 @@
             "meta": {
                 "external_id": "T1555",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -7269,6 +7303,7 @@
             "meta": {
                 "external_id": "T1567",
                 "kill_chain": [
+                    "mitre-attack:exfiltration",
                     "mitre-cloud-attack:exfiltration"
                 ],
                 "mitre_data_sources": [
@@ -7341,6 +7376,7 @@
             "meta": {
                 "external_id": "T1578",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -7516,6 +7552,7 @@
             "meta": {
                 "external_id": "T1190",
                 "kill_chain": [
+                    "mitre-attack:initial-access",
                     "mitre-cloud-attack:initial-access"
                 ],
                 "mitre_data_sources": [
@@ -7960,6 +7997,7 @@
             "meta": {
                 "external_id": "T1070.008",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -8362,6 +8400,8 @@
             "meta": {
                 "external_id": "T1550.001",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
+                    "mitre-attack:lateral-movement",
                     "mitre-cloud-attack:defense-evasion",
                     "mitre-cloud-attack:lateral-movement"
                 ],
@@ -8471,6 +8511,8 @@
             "meta": {
                 "external_id": "T1098.001",
                 "kill_chain": [
+                    "mitre-attack:persistence",
+                    "mitre-attack:privilege-escalation",
                     "mitre-cloud-attack:persistence",
                     "mitre-cloud-attack:privilege-escalation"
                 ],
@@ -8575,6 +8617,7 @@
             "meta": {
                 "external_id": "T1074.002",
                 "kill_chain": [
+                    "mitre-attack:collection",
                     "mitre-cloud-attack:collection"
                 ],
                 "mitre_data_sources": [
@@ -9161,6 +9204,8 @@
             "meta": {
                 "external_id": "T1098.003",
                 "kill_chain": [
+                    "mitre-attack:persistence",
+                    "mitre-attack:privilege-escalation",
                     "mitre-cloud-attack:persistence",
                     "mitre-cloud-attack:privilege-escalation"
                 ],
@@ -9232,6 +9277,8 @@
             "meta": {
                 "external_id": "T1550.004",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
+                    "mitre-attack:lateral-movement",
                     "mitre-cloud-attack:defense-evasion",
                     "mitre-cloud-attack:lateral-movement"
                 ],
@@ -9307,6 +9354,8 @@
             "meta": {
                 "external_id": "T1098.004",
                 "kill_chain": [
+                    "mitre-attack:persistence",
+                    "mitre-attack:privilege-escalation",
                     "mitre-cloud-attack:persistence",
                     "mitre-cloud-attack:privilege-escalation"
                 ],
@@ -9528,6 +9577,7 @@
             "meta": {
                 "external_id": "T1114.002",
                 "kill_chain": [
+                    "mitre-attack:collection",
                     "mitre-cloud-attack:collection"
                 ],
                 "mitre_data_sources": [
@@ -9592,6 +9642,7 @@
             "meta": {
                 "external_id": "T1114.003",
                 "kill_chain": [
+                    "mitre-attack:collection",
                     "mitre-cloud-attack:collection"
                 ],
                 "mitre_data_sources": [
@@ -9656,6 +9707,7 @@
             "meta": {
                 "external_id": "T1137.001",
                 "kill_chain": [
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:persistence"
                 ],
                 "mitre_data_sources": [
@@ -9840,6 +9892,7 @@
             "meta": {
                 "external_id": "T1518.001",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -9969,6 +10022,7 @@
             "meta": {
                 "external_id": "T1552.001",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -10158,6 +10212,7 @@
             "meta": {
                 "external_id": "T1137.004",
                 "kill_chain": [
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:persistence"
                 ],
                 "mitre_data_sources": [
@@ -10342,6 +10397,7 @@
             "meta": {
                 "external_id": "T1498.001",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -10681,6 +10737,8 @@
             "meta": {
                 "external_id": "T1484.002",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
+                    "mitre-attack:privilege-escalation",
                     "mitre-cloud-attack:defense-evasion",
                     "mitre-cloud-attack:privilege-escalation"
                 ],
@@ -10717,6 +10775,7 @@
             "meta": {
                 "external_id": "T1499.002",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -10998,6 +11057,7 @@
             "meta": {
                 "external_id": "T1578.002",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -11217,6 +11277,7 @@
             "meta": {
                 "external_id": "T1499.003",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -11354,6 +11415,7 @@
             "meta": {
                 "external_id": "T1578.003",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -11725,6 +11787,7 @@
             "meta": {
                 "external_id": "T1567.004",
                 "kill_chain": [
+                    "mitre-attack:exfiltration",
                     "mitre-cloud-attack:exfiltration"
                 ],
                 "mitre_data_sources": [
@@ -11767,6 +11830,7 @@
             "meta": {
                 "external_id": "T1564.008",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -11806,6 +11870,7 @@
             "meta": {
                 "external_id": "T1578.004",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -12128,6 +12193,7 @@
             "meta": {
                 "external_id": "T1535",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -12383,6 +12449,7 @@
             "meta": {
                 "external_id": "T1080",
                 "kill_chain": [
+                    "mitre-attack:lateral-movement",
                     "mitre-cloud-attack:lateral-movement"
                 ],
                 "mitre_data_sources": [
@@ -12462,6 +12529,7 @@
             "meta": {
                 "external_id": "T1201",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -12713,6 +12781,7 @@
             "meta": {
                 "external_id": "T1081",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_platforms": [
@@ -13038,6 +13107,7 @@
             "meta": {
                 "external_id": "T1082",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -13210,6 +13280,7 @@
             "meta": {
                 "external_id": "T1046",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -13304,6 +13375,7 @@
             "meta": {
                 "external_id": "T1490",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -13397,6 +13469,8 @@
             "meta": {
                 "external_id": "T1506",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
+                    "mitre-attack:lateral-movement",
                     "mitre-cloud-attack:defense-evasion",
                     "mitre-cloud-attack:lateral-movement"
                 ],
@@ -13555,6 +13629,7 @@
             "meta": {
                 "external_id": "T1580",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -13588,6 +13663,7 @@
             "meta": {
                 "external_id": "T1606",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -13711,6 +13787,7 @@
             "meta": {
                 "external_id": "T1069",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -14154,6 +14231,7 @@
             "meta": {
                 "external_id": "T1531",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -14208,6 +14286,7 @@
             "meta": {
                 "external_id": "T1137",
                 "kill_chain": [
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:persistence"
                 ],
                 "mitre_data_sources": [
@@ -14360,6 +14439,7 @@
             "meta": {
                 "external_id": "T1614",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -14461,6 +14541,7 @@
             "meta": {
                 "external_id": "T1651",
                 "kill_chain": [
+                    "mitre-attack:execution",
                     "mitre-cloud-attack:execution"
                 ],
                 "mitre_data_sources": [
@@ -15220,6 +15301,7 @@
             "meta": {
                 "external_id": "T1525",
                 "kill_chain": [
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:persistence"
                 ],
                 "mitre_data_sources": [
@@ -15245,6 +15327,7 @@
             "meta": {
                 "external_id": "T1526",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -15346,6 +15429,8 @@
             "meta": {
                 "external_id": "T1527",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
+                    "mitre-attack:lateral-movement",
                     "mitre-cloud-attack:defense-evasion",
                     "mitre-cloud-attack:lateral-movement"
                 ],
@@ -15765,6 +15850,7 @@
             "meta": {
                 "external_id": "T1536",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_platforms": [
@@ -15804,6 +15890,7 @@
             "meta": {
                 "external_id": "T1538",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -16024,6 +16111,8 @@
             "meta": {
                 "external_id": "T1484",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
+                    "mitre-attack:privilege-escalation",
                     "mitre-cloud-attack:defense-evasion",
                     "mitre-cloud-attack:privilege-escalation"
                 ],
@@ -16102,6 +16191,8 @@
             "meta": {
                 "external_id": "T1546",
                 "kill_chain": [
+                    "mitre-attack:privilege-escalation",
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:privilege-escalation",
                     "mitre-cloud-attack:persistence"
                 ],
@@ -16273,6 +16364,9 @@
             "meta": {
                 "external_id": "T1556",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
+                    "mitre-attack:defense-evasion",
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:credential-access",
                     "mitre-cloud-attack:defense-evasion",
                     "mitre-cloud-attack:persistence"
@@ -16841,6 +16935,9 @@
             "meta": {
                 "external_id": "T1556.006",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
+                    "mitre-attack:defense-evasion",
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:credential-access",
                     "mitre-cloud-attack:defense-evasion",
                     "mitre-cloud-attack:persistence"
@@ -17092,6 +17189,7 @@
             "meta": {
                 "external_id": "T1189",
                 "kill_chain": [
+                    "mitre-attack:initial-access",
                     "mitre-cloud-attack:initial-access"
                 ],
                 "mitre_data_sources": [
@@ -17282,6 +17380,7 @@
             "meta": {
                 "external_id": "T1020.001",
                 "kill_chain": [
+                    "mitre-attack:exfiltration",
                     "mitre-cloud-attack:exfiltration"
                 ],
                 "mitre_data_sources": [
@@ -17607,6 +17706,7 @@
             "meta": {
                 "external_id": "T1110.001",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -17646,6 +17746,7 @@
             "meta": {
                 "external_id": "T1110.002",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -17680,6 +17781,7 @@
             "meta": {
                 "external_id": "T1110.003",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -17718,6 +17820,7 @@
             "meta": {
                 "external_id": "T1110.004",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -17950,6 +18053,7 @@
             "meta": {
                 "external_id": "T1021.007",
                 "kill_chain": [
+                    "mitre-attack:lateral-movement",
                     "mitre-cloud-attack:lateral-movement"
                 ],
                 "mitre_data_sources": [
@@ -18074,6 +18178,7 @@
             "meta": {
                 "external_id": "T1606.001",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -18167,6 +18272,10 @@
             "meta": {
                 "external_id": "T1078.001",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
+                    "mitre-attack:persistence",
+                    "mitre-attack:privilege-escalation",
+                    "mitre-attack:initial-access",
                     "mitre-cloud-attack:defense-evasion",
                     "mitre-cloud-attack:persistence",
                     "mitre-cloud-attack:privilege-escalation",
@@ -18337,6 +18446,7 @@
             "meta": {
                 "external_id": "T1204.003",
                 "kill_chain": [
+                    "mitre-attack:execution",
                     "mitre-cloud-attack:execution"
                 ],
                 "mitre_data_sources": [
@@ -18484,6 +18594,7 @@
             "meta": {
                 "external_id": "T1606.002",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -18941,6 +19052,7 @@
             "meta": {
                 "external_id": "T1069.003",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -18982,6 +19094,7 @@
             "meta": {
                 "external_id": "T1087.003",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -19142,6 +19255,10 @@
             "meta": {
                 "external_id": "T1078.004",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
+                    "mitre-attack:persistence",
+                    "mitre-attack:privilege-escalation",
+                    "mitre-attack:initial-access",
                     "mitre-cloud-attack:defense-evasion",
                     "mitre-cloud-attack:persistence",
                     "mitre-cloud-attack:privilege-escalation",
@@ -19180,6 +19297,7 @@
             "meta": {
                 "external_id": "T1087.004",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -19342,6 +19460,8 @@
             "meta": {
                 "external_id": "T1098.005",
                 "kill_chain": [
+                    "mitre-attack:persistence",
+                    "mitre-attack:privilege-escalation",
                     "mitre-cloud-attack:persistence",
                     "mitre-cloud-attack:privilege-escalation"
                 ],
@@ -19381,6 +19501,7 @@
             "meta": {
                 "external_id": "T1059.009",
                 "kill_chain": [
+                    "mitre-attack:execution",
                     "mitre-cloud-attack:execution"
                 ],
                 "mitre_data_sources": [
@@ -19655,6 +19776,7 @@
             "meta": {
                 "external_id": "T1213.003",
                 "kill_chain": [
+                    "mitre-attack:collection",
                     "mitre-cloud-attack:collection"
                 ],
                 "mitre_data_sources": [
@@ -19740,6 +19862,7 @@
             "meta": {
                 "external_id": "T1137.002",
                 "kill_chain": [
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:persistence"
                 ],
                 "mitre_data_sources": [
@@ -19858,6 +19981,7 @@
             "meta": {
                 "external_id": "T1491.002",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -19989,6 +20113,7 @@
             "meta": {
                 "external_id": "T1136.003",
                 "kill_chain": [
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:persistence"
                 ],
                 "mitre_data_sources": [
@@ -20048,6 +20173,7 @@
             "meta": {
                 "external_id": "T1137.003",
                 "kill_chain": [
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:persistence"
                 ],
                 "mitre_data_sources": [
@@ -20305,6 +20431,7 @@
             "meta": {
                 "external_id": "T1137.005",
                 "kill_chain": [
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:persistence"
                 ],
                 "mitre_data_sources": [
@@ -20615,6 +20742,7 @@
             "meta": {
                 "external_id": "T1578.001",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -21199,6 +21327,7 @@
             "meta": {
                 "external_id": "T1498.002",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -21325,6 +21454,7 @@
             "meta": {
                 "external_id": "T1552.008",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -21446,6 +21576,7 @@
             "meta": {
                 "external_id": "T1566.002",
                 "kill_chain": [
+                    "mitre-attack:initial-access",
                     "mitre-cloud-attack:initial-access"
                 ],
                 "mitre_data_sources": [
@@ -22217,6 +22348,7 @@
             "meta": {
                 "external_id": "T1566.004",
                 "kill_chain": [
+                    "mitre-attack:initial-access",
                     "mitre-cloud-attack:initial-access"
                 ],
                 "mitre_data_sources": [
@@ -22613,6 +22745,9 @@
             "meta": {
                 "external_id": "T1556.007",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
+                    "mitre-attack:defense-evasion",
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:credential-access",
                     "mitre-cloud-attack:defense-evasion",
                     "mitre-cloud-attack:persistence"
@@ -23227,6 +23362,8 @@
             "meta": {
                 "external_id": "T1040",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:credential-access",
                     "mitre-cloud-attack:discovery"
                 ],
@@ -23311,6 +23448,7 @@
             "meta": {
                 "external_id": "T1070",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -23403,6 +23541,7 @@
             "meta": {
                 "external_id": "T1110",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -23458,6 +23597,7 @@
             "meta": {
                 "external_id": "T1021",
                 "kill_chain": [
+                    "mitre-attack:lateral-movement",
                     "mitre-cloud-attack:lateral-movement"
                 ],
                 "mitre_data_sources": [
@@ -23830,6 +23970,8 @@
             "meta": {
                 "external_id": "T1108",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:defense-evasion",
                     "mitre-cloud-attack:persistence"
                 ],
@@ -24003,6 +24145,7 @@
             "meta": {
                 "external_id": "T1204",
                 "kill_chain": [
+                    "mitre-attack:execution",
                     "mitre-cloud-attack:execution"
                 ],
                 "mitre_data_sources": [
@@ -24462,6 +24605,7 @@
             "meta": {
                 "external_id": "T1074",
                 "kill_chain": [
+                    "mitre-attack:collection",
                     "mitre-cloud-attack:collection"
                 ],
                 "mitre_data_sources": [
@@ -24658,6 +24802,7 @@
             "meta": {
                 "external_id": "T1087",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -24688,6 +24833,10 @@
             "meta": {
                 "external_id": "T1078",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
+                    "mitre-attack:persistence",
+                    "mitre-attack:privilege-escalation",
+                    "mitre-attack:initial-access",
                     "mitre-cloud-attack:defense-evasion",
                     "mitre-cloud-attack:persistence",
                     "mitre-cloud-attack:privilege-escalation",
@@ -24755,6 +24904,8 @@
             "meta": {
                 "external_id": "T1098",
                 "kill_chain": [
+                    "mitre-attack:persistence",
+                    "mitre-attack:privilege-escalation",
                     "mitre-cloud-attack:persistence",
                     "mitre-cloud-attack:privilege-escalation"
                 ],
@@ -24898,6 +25049,7 @@
             "meta": {
                 "external_id": "T1114",
                 "kill_chain": [
+                    "mitre-attack:collection",
                     "mitre-cloud-attack:collection"
                 ],
                 "mitre_data_sources": [
@@ -25074,6 +25226,7 @@
             "meta": {
                 "external_id": "T1119",
                 "kill_chain": [
+                    "mitre-attack:collection",
                     "mitre-cloud-attack:collection"
                 ],
                 "mitre_data_sources": [
@@ -25320,6 +25473,7 @@
             "meta": {
                 "external_id": "T1192",
                 "kill_chain": [
+                    "mitre-attack:initial-access",
                     "mitre-cloud-attack:initial-access"
                 ],
                 "mitre_platforms": [
@@ -25446,6 +25600,7 @@
             "meta": {
                 "external_id": "T1136",
                 "kill_chain": [
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:persistence"
                 ],
                 "mitre_data_sources": [
@@ -26007,6 +26162,7 @@
             "meta": {
                 "external_id": "T1518",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -26320,6 +26476,7 @@
             "meta": {
                 "external_id": "T1199",
                 "kill_chain": [
+                    "mitre-attack:initial-access",
                     "mitre-cloud-attack:initial-access"
                 ],
                 "mitre_data_sources": [
@@ -26453,6 +26610,7 @@
             "meta": {
                 "external_id": "T1552",
                 "kill_chain": [
+                    "mitre-attack:credential-access",
                     "mitre-cloud-attack:credential-access"
                 ],
                 "mitre_data_sources": [
@@ -26487,6 +26645,7 @@
             "meta": {
                 "external_id": "T1562",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -26701,6 +26860,7 @@
             "meta": {
                 "external_id": "T1534",
                 "kill_chain": [
+                    "mitre-attack:lateral-movement",
                     "mitre-cloud-attack:lateral-movement"
                 ],
                 "mitre_data_sources": [
@@ -26878,6 +27038,7 @@
             "meta": {
                 "external_id": "T1564",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -26917,6 +27078,7 @@
             "meta": {
                 "external_id": "T1654",
                 "kill_chain": [
+                    "mitre-attack:discovery",
                     "mitre-cloud-attack:discovery"
                 ],
                 "mitre_data_sources": [
@@ -26980,6 +27142,7 @@
             "meta": {
                 "external_id": "T1485",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -27047,6 +27210,7 @@
             "meta": {
                 "external_id": "T1648",
                 "kill_chain": [
+                    "mitre-attack:execution",
                     "mitre-cloud-attack:execution"
                 ],
                 "mitre_data_sources": [
@@ -27076,6 +27240,7 @@
             "meta": {
                 "external_id": "T1496",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -27238,6 +27403,7 @@
             "meta": {
                 "external_id": "T1657",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -27495,6 +27661,7 @@
             "meta": {
                 "external_id": "T1137.006",
                 "kill_chain": [
+                    "mitre-attack:persistence",
                     "mitre-cloud-attack:persistence"
                 ],
                 "mitre_data_sources": [
@@ -28180,6 +28347,7 @@
             "meta": {
                 "external_id": "T1213.001",
                 "kill_chain": [
+                    "mitre-attack:collection",
                     "mitre-cloud-attack:collection"
                 ],
                 "mitre_data_sources": [
@@ -28295,6 +28463,7 @@
             "meta": {
                 "external_id": "T1213.002",
                 "kill_chain": [
+                    "mitre-attack:collection",
                     "mitre-cloud-attack:collection"
                 ],
                 "mitre_data_sources": [
@@ -30246,6 +30415,7 @@
             "meta": {
                 "external_id": "T1491",
                 "kill_chain": [
+                    "mitre-attack:impact",
                     "mitre-cloud-attack:impact"
                 ],
                 "mitre_data_sources": [
@@ -30467,6 +30637,7 @@
             "meta": {
                 "external_id": "T1656",
                 "kill_chain": [
+                    "mitre-attack:defense-evasion",
                     "mitre-cloud-attack:defense-evasion"
                 ],
                 "mitre_data_sources": [
@@ -30494,6 +30665,7 @@
             "meta": {
                 "external_id": "T1566",
                 "kill_chain": [
+                    "mitre-attack:initial-access",
                     "mitre-cloud-attack:initial-access"
                 ],
                 "mitre_data_sources": [
